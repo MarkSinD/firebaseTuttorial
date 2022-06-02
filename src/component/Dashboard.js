@@ -1,7 +1,11 @@
+import {logout} from "../firebase";
+
 const Dashboard = () => {
   return(
     <>
-      Dashboard
+      <button className="login__btn login__google" onClick={logout}>
+        Log out
+      </button>
     </>
   )
 }
